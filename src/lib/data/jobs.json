@@ -1,0 +1,116 @@
+{
+    "jobPostings": [
+        {
+            "id": 1,
+            "title": "Junior Software Developer",
+            "company": "TechSoft Corp",
+            "location": "New York, NY",
+            "description": "Entry-level software developer position. Responsible for writing clean, maintainable code in a team environment. Familiarity with Java or Python preferred.",
+            "requirements": [
+                "Bachelor's degree in Computer Science or related field, or equivalent experience",
+                "Understanding of basic coding principles",
+                "Good communication skills"
+            ],
+            "hourlyRate": "$25",
+            "postedDate": "1 August, 2023",
+            "applicationDeadline": "31 August, 2023",
+            "tags": ["Software", "Entry-Level", "Java", "Python"]
+        },
+        {
+            "id": 2,
+            "title": "Marketing Assistant",
+            "company": "MegaAds Agency",
+            "location": "San Francisco, CA",
+            "description": "Assist in developing and executing marketing campaigns. Analyze consumer trends and suggest creative strategies. No prior experience needed.",
+            "requirements": [
+                "Bachelor's degree in Marketing or related field",
+                "Creativity and eagerness to learn",
+                "Basic understanding of social media platforms"
+            ],
+            "hourlyRate": "$22",
+            "postedDate": "25 July, 2023",
+            "applicationDeadline": "24 August, 2023",
+            "tags": ["Marketing", "Entry-Level", "Social Media", "Campaigns"]
+        },
+        {
+            "id": 3,
+            "title": "Financial Analyst Trainee",
+            "company": "BankOne",
+            "location": "Chicago, IL",
+            "description": "Entry-level position in our financial department. Will assist senior analysts in creating financial reports and forecasting trends. Training provided.",
+            "requirements": [
+                "Bachelor's degree in Finance, Business, or related field",
+                "Good with numbers and detail-oriented",
+                "Basic understanding of Microsoft Excel"
+            ],
+            "hourlyRate": "$24",
+            "postedDate": "5 August, 2023",
+            "applicationDeadline": "5 September, 2023",
+            "tags": ["Finance", "Entry-Level", "Excel", "Analysis"]
+        },
+        {
+            "id": 4,
+            "title": "Customer Support Representative",
+            "company": "Helpful Hands Inc.",
+            "location": "Dallas, TX",
+            "description": "Entry-level position in our customer support team. Help resolve customer queries, provide product information, and assist in troubleshooting. Prior customer service experience a plus but not required.",
+            "requirements": [
+                "Good communication skills",
+                "Patience and a positive attitude",
+                "Ability to learn quickly"
+            ],
+            "hourlyRate": "$20",
+            "postedDate": "7 August, 2023",
+            "applicationDeadline": "7 September, 2023",
+            "tags": ["Customer Service", "Entry-Level", "Communication", "Helpdesk"]
+        },
+        {
+            "id": 5,
+            "title": "Graphic Designer",
+            "company": "Creative Studios",
+            "location": "Los Angeles, CA",
+            "description": "Join our team as an entry-level graphic designer. Create engaging designs for our clients, learn from seasoned professionals, and bring your creative flair to a variety of projects.",
+            "requirements": [
+                "Basic knowledge of Adobe Creative Suite",
+                "Portfolio showcasing past work (student projects acceptable)",
+                "Eye for design and creativity"
+            ],
+            "hourlyRate": "$23",
+            "postedDate": "10 August, 2023",
+            "applicationDeadline": "10 September, 2023",
+            "tags": ["Design", "Entry-Level", "Creativity", "Adobe"]
+        },
+        {
+            "id": 6,
+            "title": "Human Resources Assistant",
+            "company": "PeopleFirst Enterprises",
+            "location": "Miami, FL",
+            "description": "An entry-level position in our HR department. Assist with recruitment processes, manage employee records, and contribute to company-wide HR initiatives. Ideal for those passionate about people and organizational culture.",
+            "requirements": [
+                "Bachelor's degree in HR, Business Administration, or related field",
+                "Strong interpersonal skills",
+                "Detail-oriented with excellent organizational capabilities"
+            ],
+            "hourlyRate": "$21",
+            "postedDate": "12 August, 2023",
+            "applicationDeadline": "12 September, 2023",
+            "tags": ["Human Resources", "Entry-Level", "Administration", "Recruitment"]
+        },
+        {
+            "id": 7,
+            "title": "Content Writer",
+            "company": "WebWords Media",
+            "location": "Boston, MA",
+            "description": "Join our growing content team as an entry-level writer. Craft compelling blog posts, website content, and social media snippets. Opportunity to grow and specialize in different forms of digital content.",
+            "requirements": [
+                "Excellent written communication skills",
+                "Familiarity with SEO best practices",
+                "Ability to research and present complex topics in simple terms"
+            ],
+            "hourlyRate": "$19",
+            "postedDate": "15 August, 2023",
+            "applicationDeadline": "15 September, 2023",
+            "tags": ["Writing", "Entry-Level", "SEO", "Blogging"]
+        }
+    ]
+}
