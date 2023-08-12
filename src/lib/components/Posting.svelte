@@ -8,6 +8,7 @@
     export let salary = "$250";
     export let location = "Melbourne, Australia";
     export let tags = ["Part time", "Entry Level", "Remote", "Project work", "Pet Friendly"];
+    export let jobLink = "https://www.seek.com.au/";
 </script>
 
 <div class="bg-white text-black rounded-xl p-2 mb-3 mx-2 sm:w-96" style="font-family: 'Nunito';" >
@@ -39,6 +40,6 @@
             <span class="font-black">{salary}/hr</span>
             <span class="text-sm text-gray-400">{location}</span>
         </div>
-        <button class="bg-black text-white rounded-full px-6 hover:bg-zinc-800 transition ease-in-out" ><a href="https://www.seek.com.au/">Details</a></button>
+        <button class="bg-black text-white rounded-full px-6 hover:bg-zinc-800 transition ease-in-out" ><a href={jobLink}>Details</a></button>
     </section>
 </div>
