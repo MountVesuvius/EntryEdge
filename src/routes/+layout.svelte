@@ -8,4 +8,6 @@
   </div>
 </nav>
 
-<slot />
+<main class="overflow-hidden">
+  <slot />
+</main>
