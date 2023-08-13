@@ -11,6 +11,8 @@
     export let jobLink = "https://www.seek.com.au/";
 </script>
 
+<!-- No longer in use -->
+
 <div class="bg-white text-black rounded-xl p-2 mb-3 mx-2 sm:w-96" style="font-family: 'Nunito';" >
     <section class="rounded-xl px-3 py-4 h-64 flex flex-col justify-between" style="background-color: {color}">
         <div>

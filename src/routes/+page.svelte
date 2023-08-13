@@ -38,7 +38,7 @@
 </div>
 
 
-<div class="flex flex-col justify-center sm:ml-[8%]">
+<div class="flex flex-col justify-center items-center">
     <button on:click={() => {isJobTypeOpen = !isJobTypeOpen;}} class="text-white bg-blue-600 w-60 flex items-center justify-center py-2 rounded-md hover:bg-blue-700">
         Job Type
         <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -48,7 +48,7 @@
     <!-- Dropdown menu -->
     {#if isJobTypeOpen}
     <div id="dropdown" class="z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-60 dark:bg-gray-700">
-        <ul class="py-2 text-sm text-gray-700 h-48 overflow-y-auto space-y-1">
+        <ul class="py-2 text-sm text-gray-700 h-48 overflow-y-auto space-y-1 overflow-hidden">
             {#each Object.keys(jobs) as item}
                 <button class="text-white text-start text-lg w-60 px-2 focus:bg-white focus:text-black" on:click={() => {selectJob(jobs[item], item)}}>{item}</button>
             {/each}
@@ -57,7 +57,7 @@
     {/if}
 </div>
 
-<div class="flex flex-col flex-wrap sm:flex-row justify-center">
+<div class="flex flex-col flex-wrap sm:flex-row justify-center items-center">
     {#each selectedJobs as job}
         <JobListing 
             title={job.title}
@@ -65,7 +65,6 @@
             company={job.company}
             jobLink={job.jobLink}
             description={job.description}
-            area={jobArea}
             color={selectedColor}
         />
     {/each} 
